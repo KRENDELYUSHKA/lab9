@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['IO']))
+if(isset($_POST['moprhling']))
 {
 
     $fp = fopen("mess.txt", "r");
@@ -24,7 +24,7 @@ if(isset($_POST['IO']))
 </head>
 <body>
     <form method="POST">
-        <input type="submit" name="IO" value="ОК">
+        <input type="submit" name="moprhling" value="ОК">
     </form>
 </body>
 </html>
